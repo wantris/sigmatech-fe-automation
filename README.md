@@ -13,8 +13,8 @@ npx playwright install
 Buat file `.env`:
 ```env
 BASE_URL=https://opensource-demo.orangehrmlive.com
-ORANGEHRM_USERNAME=Admin
-ORANGEHRM_PASSWORD=admin123
+ACC_USERNAME=Admin
+ACC_PASSWORD=admin123
 ```
 ▶️ Run Test
 Run semua test:

@@ -28,6 +28,7 @@ test.describe('Positive Scenario - Quick Launch Menu Tests', () => {
                 await expect(page).toHaveURL(
                     new RegExp(menu.expectedUrl)
                 );
+                
         });
     }
 

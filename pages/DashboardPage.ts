@@ -46,9 +46,11 @@ export class DashboardPage {
     }
 
     async clickQuickLaunch(name: string) {
-        await this.page
+        const button = await this.page
             .locator(`button[title="${name}"]`)
-            .click();
+
+        await expect(button).toBeVisible();
+        await button.click();
     }
 
 }
